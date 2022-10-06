@@ -1,0 +1,19 @@
+{
+  "name": "@repro/server",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "tsx watch ./src/server"
+  },
+  "dependencies": {
+    "@fastify/autoload": "5.3.0",
+    "@fastify/cors": "^8.1.0",
+    "@trpc/server": "10.0.0-proxy-beta.15",
+    "fastify": "^4.7.0",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "fastify-tsconfig": "^1.0.1",
+    "tsx": "^3.9.0",
+    "typescript": "^4.8.4"
+  }
+}

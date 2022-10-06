@@ -1,0 +1,15 @@
+{
+  "name": "@repro/client",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=8080 nuxt dev",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@trpc/client": "10.0.0-proxy-beta.15",
+    "@trpc/server": "10.0.0-proxy-beta.15"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.11"
+  }
+}
